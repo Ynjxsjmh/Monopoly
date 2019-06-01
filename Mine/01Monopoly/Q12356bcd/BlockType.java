@@ -1,0 +1,7 @@
+public enum BlockType {
+	MONEY_BLOCK,
+	TRIP_BLOCK,
+	BAR_BLOCK,
+	SLIDE_BLOCK,
+	WALL_BLOCK,
+}
