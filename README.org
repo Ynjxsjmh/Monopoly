@@ -1,0 +1,76 @@
+* Table of Contents                                                     :TOC:QUOTE:
+#+BEGIN_QUOTE
+- [[#about][About]]
+- [[#invovled-design-patterns][Invovled Design Patterns]]
+- [[#screentshot][Screentshot]]
+- [[#how-to-run-my-java-code][How to run my Java code]]
+  - [[#01monopoly][01Monopoly]]
+  - [[#03monopoly][03Monopoly]]
+  - [[#04monopoly][04Monopoly]]
+  - [[#05monopoly][05Monopoly]]
+- [[#further-working][Further Working]]
+#+END_QUOTE
+
+* About
+Monolopy is a popular game among the world. And my teacher required me to use the design pattern to reproduce that game. So this is a repo about this game.
+
+My teacher also offered his implementation of this game. His source code is listed in folder =Teacher=.
+
+* Invovled Design Patterns
+- 01Monopoly: Multition Pattern, Singleton Pattern, Factory Pattern, Abstract Factory Pattern, Generator Pattern, Prototype method
+- 03Monopoly: Bridge Pattern, Adapter Pattern
+- 04Monopoly: Decorating Pattern, Proxy Pattern
+- 05Monopoly: Iterator Pattern, Strategy Pattern, Command Pattern, State Pattern, Visitor Pattern
+
+* Screentshot
+Here lists some screentshots of my implementation:
+
+One of the map is what below picture shows and the player is shown by his ID like 0, 1, 2. The human player is surrounded by symbol []; the computer player is surrounded by symbol ().
+
+[[file:About/22-13-31-423885366%252C12022016821_2018-11-04_20-24-05.jpg]]
+
+The Info of the player is like this:
+
+[[file:About/22-13-31-423885366%252C12022016821_2018-11-04_20-27-19.jpg]]
+
+* How to run my Java code
+You need to open terminal in that folder at the very beginning.
+
+** 01Monopoly
+The files under that folder satisfy the requirements of problem =1, 2, 3, 5=, you do can run these java files.
+
+Folders =Q12356a= , =Q12356bcd= , =Q12356ef= mean it further implements the requirement =a= of problem 6 or requirements =bcd= of problem 6, etc. They are complete code not like folder =Q6a_fm_Block= etc.
+
+Make sure you create the =bin= folder manually.
+#+BEGIN_SRC bash
+$ javac -d ./bin GameTestDrive.java
+$ java  -cp ./bin GameTestDrive
+#+END_SRC
+
+If you don't want to create that folder, run command below:
+#+BEGIN_SRC bash
+$ javac GameTestDrive.java
+$ java  GameTestDrive
+#+END_SRC
+
+** 03Monopoly
+Same as =01Monopoly=
+
+** 04Monopoly
+Make sure open terminal in =src= folder.
+
+Run command below
+#+BEGIN_SRC bash
+$ javac -d ..\bin .\game\GameTestDrive.java
+$ java -cp ..\bin game.GameTestDrive 
+#+END_SRC
+
+** 05Monopoly
+Same as =03Monopoly=, maybe you need =JNative.jar= ? I forget.
+
+* Further Working
+- [ ] Add building to the game
+- [ ] Think of an easier way to add new kind of player except using Visitor Pattern
+- [ ] Add level property to the player
+- [ ] Add accident to the game
+
