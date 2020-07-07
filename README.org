@@ -4,10 +4,10 @@
 - [[#invovled-design-patterns][Invovled Design Patterns]]
 - [[#screentshot][Screentshot]]
 - [[#how-to-run-my-java-code][How to run my Java code]]
-  - [[#01monopoly][01Monopoly]]
-  - [[#03monopoly][03Monopoly]]
-  - [[#04monopoly][04Monopoly]]
-  - [[#05monopoly][05Monopoly]]
+    - [[#01monopoly][01Monopoly]]
+    - [[#03monopoly][03Monopoly]]
+    - [[#04monopoly][04Monopoly]]
+    - [[#05monopoly][05Monopoly]]
 - [[#further-working][Further Working]]
 #+END_QUOTE
 
@@ -35,6 +35,8 @@ The Info of the player is like this:
 
 * How to run my Java code
 You need to open terminal in that folder at the very beginning.
+
+You can refer to [[https://ymichael.com/2014/09/24/build-and-run-eclipse-java-projects-on-the-command-line.html][Build and run eclipse java projects from the command line - ymichael]] if you failed to compile the project after trying what I described.
 
 ** 01Monopoly
 The files under that folder satisfy the requirements of problem =1, 2, 3, 5=, you do can run these java files.
